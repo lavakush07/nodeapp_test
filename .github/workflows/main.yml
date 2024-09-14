@@ -14,7 +14,7 @@ jobs:
     - name: Set up Node.js environment
       uses: actions/setup-node@v3
       with:
-        node-version: '14' # specify the Node.js version if needed
+        node-version: '20' # specify the Node.js version if needed
     
     - name: Log into Docker Hub
       uses: docker/login-action@v3
