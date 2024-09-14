@@ -1,7 +1,7 @@
 name: GithubActions-Demo
 on:
   push:
-    branches: ["master"]
+    branches: ["main"]
     
 jobs:
   push_to_registry:
